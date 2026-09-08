@@ -1,0 +1,8 @@
+C:/Projetos/HDL/2026_2/lab0/src/mux2x1_tb.v {1 {vlog -work work {C:\Projetos\HDL\2026_2\lab0\src\mux2x1_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux2x1_tb
+
+Top level modules:
+	mux2x1_tb
+
+} {} {}}
