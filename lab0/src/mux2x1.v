@@ -1,0 +1,18 @@
+
+module mux2x1
+#(parameter width = 1)
+(
+	a_i,
+	b_i,
+	sel_i,
+	out_o
+);
+
+input wire[width-1:0] a_i;
+input wire[width-1:0] b_i;
+input wire sel_i;
+output wire[width-1:0] out_o;
+
+assign out_o = (sel_i==1'b1)? a_i : b_i;
+
+endmodule
